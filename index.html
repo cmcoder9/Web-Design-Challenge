@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-usa">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <title>Latitude</title>
@@ -7,26 +7,12 @@
     <link rel="stylesheet" type="text/CSS" href= "css/global.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Latitude</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
           </button>
-    
-          <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Plots</a>
+                <a class="nav-link dropdown-toggle" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Plots</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown04">
                   <li><a class="dropdown-item" href='Visualizations/viz1.html'>Visulization Page 1 </a></li>
                   <li><a class="dropdown-item" href='Visualizations/viz2.html'>Visulization Page 2 </a></li>
@@ -35,30 +21,32 @@
                 </ul>
               </li>
             </ul>
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" aria-current="page" href="Visualizations/Comparisons.html">Comparisons</a>
+                  </li>
           </div>
         </div>
     </nav>
     <div class='container'>
         <div class='row'>
-            <div class='col-md-8' style='height: 600px; width:400px'>
-                <h1>Summary</h1>
-                <img src=''>
+            <div class='col-md-8' style=''>
+                <h1>Summary: Latitude vs. X</h1>
+                <img src='./Resources/assets/images/Fig1.png'>
+                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. Latitiude.  Factors we loooked at included: temperature, cloudiness, wind speed, humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
             </div>
-            <div class='col-md-4' style='height: 600px; width:200px'>
-                <h1>Visualization</h1>
-                <img src=''>
+            <div class='col-md-4' style=''>
+                <h1>Visualizations</h1>
+                <img src='./Resources/assets/images/Fig1.png'>
+                <img src='./Resources/assets/images/Fig2.png'>
+                <img src='./Resources/assets/images/Fig3.png'>
+                <img src='./Resources/assets/images/Fig4.png'>
             </div>
         </div>
     </div>
-    <ul>
-        <li><a>Landing Page</a></li>
-        <li><a href='Visualizations/viz1.html'>Visulization Page 1 </a></li>
-        <li><a>Visulization Page 2 </a></li>
-        <li><a>Visulization Page 3 </a></li>
-        <li><a>Visulization Page 4 </a></li>
-        <li><a>Comparisons Page </a></li>
-        <li><a>Data Page </a></li>
-    </ul>
+    
 
 <!--    <div class="box-set">
          <figure class="box box-1">Box 1</figure>
