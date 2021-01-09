@@ -46,6 +46,14 @@
   overflow: hidden;
 }
 
+
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
 /* Dropdown button */
 .dropdown .dropbtn {
   font-size: 16px;
